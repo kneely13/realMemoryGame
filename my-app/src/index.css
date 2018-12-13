@@ -12,3 +12,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+nav {
+  background-color: blue;
+  list-style: none; 
+  color: white;
+  text-align: left;
+  
+}
+
+nav li {
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px;
+}
+
+nav li h3{
+  padding-left: 4em;;
+}
+
+.jumbotron {
+  background-image: url("components/Jumbotron/jumbotron-background.jpg");
+  background-position: 30%;
+  padding-top: 7em;
+  padding-bottom: 8em;
+  
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 60px;
+  margin: auto 0;
+  text-align: center;
+  padding-right: 3em;
+}
