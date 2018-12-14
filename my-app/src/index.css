@@ -46,3 +46,24 @@ nav li h3{
   text-align: center;
   padding-right: 3em;
 }
+
+.jumbotron h3 {
+  color: black;
+  font-size: 17x;
+  margin: auto 0;
+  text-align: center;
+  padding-right: 2em;
+}
+
+footer {
+background-color:blue;
+ padding-bottom:0.5em;
+ margin-top:19em;
+ 
+}
+
+.outsideFooterDiv {
+  background-color:lightblue;
+  /* padding-top:4em; */
+}
+

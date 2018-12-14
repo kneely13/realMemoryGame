@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const imagesArray =["stewie.jpg","stewie.jpg"]
+// const imagesArray =["stewie.jpg"]
 
 
         
@@ -20,7 +20,9 @@ const imagesArray =["stewie.jpg","stewie.jpg"]
 function Card(props) {
     return (
       <div className="card text-center">
-        <div className="card-body">{props.children}</div>
+        <div className="card-body">
+          <img src='.card/th.jpg' alt="stewie"></img>>
+        </div>
       </div>
     );
   }
