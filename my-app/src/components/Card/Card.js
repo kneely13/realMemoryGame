@@ -1,32 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-// const imagesArray =["stewie.jpg"]
 
 
-        
-// class Card extends React.Component() {
-    
-//     rand = Math.random({imagesArray}) >= 0.5;
-//     render() {
-//         return (
-//             <img 
-//             src = "stewie.jpg"
-//             alt = 'alt'/>
-//         );
-//     }
+
+// function changeImage(e) {
+//   e.target.setAttribute('src', characters[random + charactersLis]);
+//   console.log(random + "has just been changed")
 // }
 
-function Card(props) {
-    return (
-      <div className="card text-center">
-        <div className="card-body">
-          <img src='.card/th.jpg' alt="stewie"></img>>
-        </div>
-      </div>
-    );
-  }
 
-  
+const Card = props => (
+  <div className="card">
+        <div className="card-container">
+            <img alt={props.name} src={props.image} />
+        </div>
+        <div className="content">
+          <ul>
+            <li>
+              <strong>Image:</strong> {props.image} 
+            </li>
+          </ul>
+        </div>
+        <span onClick={() => props.removeFriend(props.id)} className="remove">
+      𝘅
+      </span>
+  </div>
+);
 
 export default Card;

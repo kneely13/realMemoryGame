@@ -7,12 +7,10 @@ import React from 'react';
 function Footer(props) {
     return (
     <div className="outsideFooterDiv">
-        <footer className="footer-sticky">
-             <p>Created by: Kristian Neely</p>
+        <footer className="bottom">
+             <strong>"Created by: Kristian Neely"</strong>
+             <img alt="react" src="favicon.ico" />
         </footer>
-        <p>
-            Memory Game!
-        </p>
     </div>
         
     );

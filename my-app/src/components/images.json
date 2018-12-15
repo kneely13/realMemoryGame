@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Stewie",
+        "image": "stewie.jpg",
+        "src":"images/stewie.jpg",
+        "width": "auto" ,
+        "height":"200px",
+        "alt" : "Stewie"
+    },
+    {
+        "id": 2,
+        "name": "Lois",
+        "image": "lois.jpg",
+        "src":"images/lois.jpg",
+        "width": "auto" ,
+        "height":"200px",
+        "alt" : "Lois"
+    },
+    {
+        "id": 3,
+        "name": "Peter",
+        "image": "peter-griffin.jpg",
+        "src":"images/peter-griffin.jpg",
+        "width": "auto" ,
+        "height":"200px",
+        "alt" : "Peter Griffin"
+    }
+]
